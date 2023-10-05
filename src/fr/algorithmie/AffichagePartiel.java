@@ -16,6 +16,7 @@ public class AffichagePartiel {
 		//Combiner une boucle et un test de manière à n’afficher que les entiers pairs
 		System.out.println("Affichage Entier Pairs");
 		for(int i : array) {
+			/*Comparaison de I Avec le décalage binaire de i, qui renvoie le nombre pair inferieur au plus proche*/
 			if(i>>1<<1 == i) {
 				System.out.println(i);
 			}
