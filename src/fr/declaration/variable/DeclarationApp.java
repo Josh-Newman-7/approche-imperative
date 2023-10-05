@@ -2,6 +2,8 @@ package fr.declaration.variable;
 
 public class DeclarationApp {
 	public static void main(String[] args) {
+		
+		//DECLARATION DES VARIABLES
 		byte var_byte = 0;
 		short var_short = 0;
 		int var_int = 0;
@@ -12,6 +14,7 @@ public class DeclarationApp {
 		boolean var_bool = true;
 		String var_string = "string";
 		
+		//AFFICHAGE DES VARIABLES
 		System.out.println(0);
 		System.out.println(var_byte);
 		System.out.println(var_short);
@@ -23,6 +26,8 @@ public class DeclarationApp {
 		System.out.println(var_bool);
 		System.out.println(var_string);
 		
+		
+		///RETOUR A LA LIGNE DES CHAINES DE CHARACTERES
 		String randomString = "Voici le résultat d'un calcul :\n1+5=6";
 		System.out.println(randomString);
 	}
