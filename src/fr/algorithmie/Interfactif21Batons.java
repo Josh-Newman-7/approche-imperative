@@ -22,7 +22,11 @@ public class Interfactif21Batons {
         	System.out.println("Il reste "+nbBatons+" batons sur la table");
             System.out.print("\nChoisis une option (1-4) : ");
             int choice = scanner.nextInt();
-            	
+            
+            /*Normalement, ce bout de code nettoie la console a chaque coup. Pas de bol que ca ne marche pas*/
+            System.out.print("\033[H\033[2J");  
+            System.out.flush();           
+            
             /*Tour du joueur*/
             switch (choice) {
             
